@@ -1,0 +1,172 @@
+body{
+	width: 1100px;
+}
+
+.clear{
+	clear: both;
+}
+
+.right{
+	float: right;
+}
+
+/******************
+/* HEADER.HTML*****
+/*****************/
+
+header{
+	background-image: linear-gradient(to bottom, #3c3c3c 0%, #222 100%);
+}
+
+header div.logo{
+	width: 250px;
+	border-right: 2px solid white;
+	border-bottom: 2px solid white;
+    border-radius: 80px;
+    display: inline-block;
+}
+header div.annonce{
+
+}
+
+header div.annonce h1{
+
+}
+
+header div#login.right{
+	width: 250px;
+	height: 25px;
+	border-bottom: 2px solid white;
+	padding-top: 2px;
+	margin-right: 10px;
+	border-radius: 80px;
+}
+
+header div#login.right p{
+	text-align: center;
+}
+
+header div#login.right p a{
+	text-decoration: none;
+}
+
+header div#login.right p a:hover{
+	color: white;
+
+}
+
+header div#box-login.right{
+	width: 235px;
+	margin-top: -215px;
+	border-top: 2px solid white;
+	border-bottom: 2px solid white;
+	border-radius: 30px;
+	margin-right: 15px;
+	padding: 10px;
+}
+
+header div#box-login.right form button#btn-log.btn.btn-default{
+	margin-left: 60px;
+}
+
+/******************
+/* FOOTER.HTML*****
+/*****************/
+
+footer{
+	background-image: linear-gradient(to bottom, #3c3c3c 0%, #222 100%);
+}
+
+#footer-header{
+	color: white;
+}
+
+#comLog {
+  width: 200px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.leftfooter {
+	float: left;
+    width: 350px;
+	margin-left: 30px;
+    margin-top: 15px;
+}
+
+.midfooter {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    width: 350px;
+}
+
+.rightfooter {
+	float: right;
+    width: 350px;
+	padding-left: 120px;
+	margin-top: -190px;
+}
+
+.logo { 
+	margin-left: auto;
+    margin-right: auto;
+    width: 10em
+}
+
+.comLogo { 
+	display: inline-flex;
+	margin-left: 25px;
+}
+
+.FB-Logo { 
+	margin-left: auto;
+    margin-right: auto;
+    width: 6em
+}
+
+.T-Logo { 
+	margin-left: 78px;
+    margin-top: -75px;
+	margin-top: 0px;
+    width: 6em
+}
+
+.Y-Logo { 
+    margin-left: 150px;
+	margin-top: -70px;
+    width: 6em
+}
+
+/******************
+/* CONTENT.HTML*****
+/*****************/
+
+div.content{
+	width: 1000px;
+	margin: auto;
+}
+
+div.content div.box{
+    background-image: url("../img/pa-box.png");
+    background-repeat: no-repeat;
+    background-size: 80px auto;
+    border-bottom: 2px solid;
+    border-radius: 20px;
+    border-right: 2px solid;
+    height: 400px;
+    margin: auto;
+    width: 900px;
+    margin-bottom: 20px;
+}
+
+div.content div.box h1{
+	font-family: Comic Sans MS;
+    padding-left: 90px;
+    padding-top: 12px;
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+    border-radius: 20px;
+    width: 500px;
+}
