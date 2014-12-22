@@ -15,7 +15,25 @@
 			<?php
 				require_once('header.html');
 				require_once('menu.html');
-				require_once('content.html');
+				/* On test si le paramètre chap existe */
+				if (isset($_GET["chap"])) {
+				/* On Choisi la page à afficher */
+					switch ($_GET["chap"]) {
+						case 'createAccount':
+							require_once('users/createAccount.html');
+							break;
+						case 'legislation_francaise':
+							require_once('Pages/legislation_francaise.html');
+							break;
+						
+						default:
+							require_once('content.html');
+							break;
+					};
+				}else{
+				/* Si pas de paramètre => Home Page*/
+					require_once('content.html');
+				}
 				require_once('footer.html');
 			?>
 		</body>
